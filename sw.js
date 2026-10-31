@@ -1,6 +1,6 @@
 // Lift Log offline support: always try the network first so updates show up,
 // fall back to the saved copy when there's no signal at the gym.
-const CACHE = "lift-log-v5";
+const CACHE = "lift-log-v6";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
